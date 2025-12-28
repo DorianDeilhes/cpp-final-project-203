@@ -1,0 +1,112 @@
+# ===========================
+# C++ Compiled Files
+# ===========================
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic/Static libraries
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.lai
+*.la
+
+# Fortran module files
+*.mod
+*.smod
+
+# ===========================
+# Project-Specific Output Files
+# ===========================
+# (Keeping .txt files - they contain important results!)
+
+# ===========================
+# Folders to Exclude
+# ===========================
+# Drafts/scratch work folder
+brouillon/
+
+# Build output directories (if you create them)
+build/
+bin/
+obj/
+
+# ===========================
+# IDE and Editor Files
+# ===========================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===========================
+# OS Generated Files
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+
+# ===========================
+# DO NOT IGNORE (Keep These)
+# ===========================
+# Keep README and documentation
+!README.md
+!RESULTS_SUMMARY.md
+!SENSITIVITY_ANALYSIS.md
+!Makefile
